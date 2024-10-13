@@ -25,8 +25,8 @@ address {
 }
 .container{
     max-width: 1158px;
-    padding: 0.15px;
     margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 img {
     display: block;
@@ -80,6 +80,7 @@ span.word {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 .post:hover,
 .post:focus{
@@ -94,7 +95,7 @@ span.word {
     display: flex;
     gap: 40px;
 }
-.container-heder {
+.header-container {
     display: flex;
 }
 .contakt-list {
@@ -253,7 +254,7 @@ span.word {
     column-gap: 24px;
 }
 .title-three-image {
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px)/3);
 }
 .name-one {
     font-weight: 500;
