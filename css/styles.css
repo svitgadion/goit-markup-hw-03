@@ -31,7 +31,7 @@ address {
 img {
     display: block;
 }
-.heder {
+.header {
     border-bottom: 1px solid #e7e9fc;
 }
 .logo {
@@ -85,7 +85,6 @@ span.word {
 .post:focus{
     color: #404BBF
 }
-
 .header-nav {
     display: flex;
     margin-right: auto;
